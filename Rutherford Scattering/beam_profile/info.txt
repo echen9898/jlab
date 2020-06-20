@@ -1,0 +1,6 @@
+
+-> Data gathered: 11/28/2018 
+-> Data type: .txt (converted from .Chn online)
+-> Apperture: Empty
+
+-> Procedure: Various angles from zero (-10, +10), to measure the beam profile. Name is the degree at which howitzer is located.

@@ -1,2 +1,6 @@
-# jlab
-A collection of python scripts used for MIT Junior Lab (Fall 2018).
+# MIT JLab Experiments
+All data and processing scripts used for MIT's Junior Lab experiments (Fall 2018).
+
+* Relativistic Dynamics
+* Johnson Noise
+* Rutherford Scattering

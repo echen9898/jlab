@@ -1,0 +1,19 @@
+
+Each subfolder corresponds to one of the four analysis procedures. Rest of the data is contained externally.
+
+1) Beam profile
+    -> MCA spectra for each angle 
+    -> process.py
+
+2) Gold foil thickness 
+    -> MCA spectra for each of the 3 gold foil thicknesses at 0 degrees (including a measurement with no foil in order to deduce bin associated with E0).
+    -> process.py
+
+3) Z dependence 
+    -> MCA spectra for each element (Fe, Al, Ni, Au) at 0 degrees (20 as well perhaps)
+    -> process.py
+
+4) Cross section
+    -> MCA spectra for 2 layer gold
+    -> daily normalization data
+    -> process.py

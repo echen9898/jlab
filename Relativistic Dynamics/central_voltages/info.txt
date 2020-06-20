@@ -1,0 +1,12 @@
+
+Dates: 
+    10/10/2018 -> 20G, 100G
+    10/15/2018 -> 110G, 90G, 80G, 70G, 60G, 95G
+    10/19/2018 -> 105G, 85G, 80G (1.9, 2.1, 2.3)
+
+Measurement Duration: 
+    300sec (5mins): 20G, 100G
+    60sec(1mins): 110G, 90G, 80G, 70G, 60G, 95G, 105G, 85G
+
+Objective: 
+    For different magnetic field strengths, we want to find the central voltage for each magnetic field that produces the max amount of counts per minute above background noise. We do this by going through each voltage strength in increments of 10G (highest 110G, lowest 20G), and seeing which voltage applied to the selector plates produces the highest count rate. We switched to 1min durations in order to favor trying out as many voltages as possible and getting a good rough estimate as opposed to 5mins which would give a better central voltage but take more time. We use an algorithm (process.py) to sum the total number of counts in the range of the MCA output that has our peak. We compare these to find the best voltage.

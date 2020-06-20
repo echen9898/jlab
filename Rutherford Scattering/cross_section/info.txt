@@ -1,0 +1,5 @@
+-> 2 layer gold foil data for various angles
+
+-> Organization:
+    -> norm: normalization file for each day. Named by day.
+    -> other: all other folders are named by the angle the measurement was taken at. Each file within follows 'version_day' naming convention. 
